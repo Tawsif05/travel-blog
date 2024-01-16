@@ -45,8 +45,8 @@ ul {
     width: 25px;
     height: 50px;
     margin-top: 50px;
-     display: none; 
-} 
+    display: none;
+}
 
 .free-pic img {
     width: 100%;
@@ -134,37 +134,219 @@ select {
     background: rgba(255, 255, 255, 0.30);
     margin: 45px 440px;
 }
-.section-title{
+
+.section-title {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
     margin-top: 0px;
     padding-top: 0px;
 }
-.section-description{
+
+.section-description {
     color: rgba(19, 19, 24, 0.70);
     line-height: 26px;
     width: 1000px;
 }
-.section{
+
+.section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 90px;
 }
-.ul-type{
+
+.ul-type {
     display: block;
 }
-.and{
+
+.and {
     color: #FFF;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
     margin-top: 35px;
 }
-.b{
+
+.b {
     margin-top: 90px;
     margin-bottom: 35px;
+}
+
+.choose-title {
+    color: #131318;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    width: 600px;
+    margin: 10px 650px;
+    line-height: 25px;
+}
+
+.country {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+    gap: 30px;
+
+}
+/* 
+.maldives {
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.indonesia {
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    width: 873px;
+    height: 400px;
+} */
+.container-first{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+}
+
+.country1{
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 840px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.country1 p{
+    padding-top: 160px;
+}
+.country2{
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 840px;
+    margin-left: 0px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.country2 p{
+    padding-top: 160px;
+}
+.container-second{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+    
+}
+.country3{    
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 286px;
+    border-radius: 16px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+.country3 p{
+    padding-top: 160px;
+}
+.country4{
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 286px;
+    border-radius: 16px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.country4 p{
+    padding-top: 160px;
+}
+.country5{
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 474px;
+    height: 285px;
+    border-radius: 16px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.country5 p{
+    padding-top: 160px;
+}
+.container-third{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+}
+.country6{
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 700px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.country6 p{
+    padding-top: 160px;
+}
+.country7{
+    background-image: url(../B9A2-Hero-Travel/Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 980px;
+    margin-left: 0px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.country7 p{
+    padding-top: 160px;
 }
 @media screen and (max-width:600px) {
     ul {
@@ -204,59 +386,132 @@ select {
         margin-left: 20px;
         width: 330px;
     }
-    .blur{
+
+    .blur {
         flex-direction: column;
         margin: 24px 32px;
         gap: 16px;
         height: 300px;
         margin-left: 47px;
     }
+
     form input,
-select {
-    margin: 16px ;
-}
+    select {
+        margin: 16px;
+    }
 
-input {
-    width: 250px;
-    height: 45px;
-    border-radius: 8px;
-    background: #FFF;
-    border: none;
-    outline: none;
+    input {
+        width: 250px;
+        height: 45px;
+        border-radius: 8px;
+        background: #FFF;
+        border: none;
+        outline: none;
+
+    }
+
+    select {
+        width: 255px;
+        height: 45px;
+        border-radius: 8px;
+        background: #FFF;
+        border: none;
+        outline: none;
+        margin-left: 18px;
+    }
+
+    .btn-primary {
+        width: 255px;
+        height: 47px;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        border: none;
+        text-align: center;
+        margin-left: 18px;
+        margin-top: 15px;
+    }
+
+    .travel {
+        display: flex;
+        align-items: center;
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .first-title {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 5px;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-title {
+        font-size: 20px;
+        margin: 0px 285px;
+        width: 380px;
+    }
+
+    .section-description {
+        font-size: 14px;
+        width: 380px;
+        margin-left: 270px;
+    }
+
+    .and {
+        margin-left: 270px;
+    }
+
+    .b {
+        width: 352px;
+        height: 442px;
+        margin-right: 285px;
+        margin-left: 220px;
+        overflow: hidden;
+        margin-top: 30px;
+        border-radius: 16px;
+    }
+
+    .choose-title {
+        text-align: left;
+        width: 600px;
+        margin-left: 60px;
+        font-size: 25px;
+    }
+
+    .choose-description {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        width: 350px;
+        margin: 10px 30px;
+    }
+    .container-first{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container-second{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-third{
+        display: flex;
+        flex-direction: column;
+    }
+    .country1,.country2, .country3, .country4, .country5,.country6, .country7{
+        width: 352px;
+        height: 442px;
+        overflow: hidden;
+        margin-left: 0px;
+        margin-top: 30px;
+        border-radius: 16px;
+    }
     
-}
-select {
-    width: 255px;
-    height: 45px;
-    border-radius: 8px;
-    background: #FFF;
-    border: none;
-    outline: none;
-    margin-left: 18px;
-}
-.btn-primary {
-    width: 255px;
-    height: 47px;
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
-    border: none;
-    text-align: center;
-    margin-left: 18px;
-    margin-top: 15px;
-}
-.travel {
-    display: flex;
-    align-items: center;
-    color: #131318;
-    font-size: 20px;
-    font-weight: 800;
-}
-.first-title {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 5px;
-}
-
+    
 
 }
