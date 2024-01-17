@@ -619,9 +619,51 @@ select {
     border-width: 1px;
 }
 
+.enjoy{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+}
+.your-title h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.your-title{
+    width: 350px;
+}
+.enjoy-pic{
+    background-image: url(../B9A2-Hero-Travel/Images/web.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 970px;
+    height: 400px;
+    border-radius: 16px;
+    text-align: center;
+}
+.your-description{
+    width: 350px;
+    color: #5A5A5D;
+}
+.your-description p{
+    color: #FF5400;
+    font-weight: 800;
+}
+.enjoy-pic p{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 800;
+    margin-top: 150px;
+
+}
+
+
+
+
 .footer-sec1 {
     display: flex;
     justify-content: center;
+    
 }
 
 .footer-sec2 {
@@ -663,6 +705,7 @@ footer{
 
 
 
+
 @media screen and (max-width:600px) {
     ul {
         display: none;
@@ -682,8 +725,8 @@ footer{
     }
 
     .header-box {
-        margin: 0px 20px;
-        width: 410px;
+        margin: 0px 45px;
+        width: 480px;
         height: 583px;
         border-radius: 16px;
     }
@@ -758,12 +801,20 @@ footer{
     .first-title {
         display: flex;
         justify-content: space-between;
-        margin: 0px 5px;
+        /* margin: 0px 5px; */
+        margin-left: 55px;
+    }
+    .textmy{
+        width: 450px;
+    }
+    #new{
+        width: 455px;
     }
 
     .section {
         display: flex;
         flex-direction: column;
+        margin-left: 200px;
     }
 
     .section-title {
@@ -783,10 +834,10 @@ footer{
     }
 
     .b {
-        width: 352px;
+        width: 490px;
         height: 442px;
         margin-right: 285px;
-        margin-left: 220px;
+        margin-left: 320px;
         overflow: hidden;
         margin-top: 30px;
         border-radius: 16px;
@@ -795,9 +846,10 @@ footer{
     .choose-title {
         text-align: left;
         width: 600px;
-        margin-left: 60px;
+        margin-left: 100px;
         font-size: 25px;
     }
+    
 
     .choose-description {
         color: rgba(19, 19, 24, 0.70);
@@ -805,21 +857,26 @@ footer{
         width: 350px;
         margin: 10px 30px;
     }
+    .choose{
+        margin-left: 100px;
+    }
 
     .container-first {
         display: flex;
         flex-direction: column;
-
+        margin: 0px 40px;
     }
 
     .container-second {
         display: flex;
         flex-direction: column;
+        margin: 0px 40px;
     }
 
     .container-third {
         display: flex;
         flex-direction: column;
+        margin: 0px 40px;
     }
 
     .country1,
@@ -829,7 +886,7 @@ footer{
     .country5,
     .country6,
     .country7 {
-        width: 352px;
+        width: 500px;
         height: 442px;
         overflow: hidden;
         margin-left: 0px;
@@ -840,7 +897,10 @@ footer{
     .choose-us {
         display: flex;
         flex-direction: column;
-        margin: 0 20px;
+        margin: 0 80px;
+    }
+    .why-choose{
+        margin: 0px 100px;
     }
 
     .hotel1 {
@@ -858,13 +918,13 @@ footer{
     }
 
     .hotel3 {
-        width: 26em;
+        width: 25em;
         height: 17.75em;
         padding: 1em;
         border-radius: 16px;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
-        margin-left: 1em;
+        margin-left: 5em;
         margin-top: 1em;
     }
 
@@ -873,7 +933,7 @@ footer{
     }
 
     .box1 {
-        width: 430px;
+        width: 500px;
     }
 
     .real-blur {
@@ -909,8 +969,9 @@ footer{
     .video-contain {
         display: flex;
         flex-direction: column;
-        margin: 10px 10px;
+        margin: 10px 40px;
     }
+    
 
     .simple-description ul>li {
         color: #131318;
@@ -920,7 +981,7 @@ footer{
     }
 
     .text-title {
-        width: 280px;
+        width: 400px;
         color: #131318;
         font-size: 20px;
         font-weight: 800;
@@ -930,7 +991,7 @@ footer{
 
     .simple {
         color: #5A5A5D;
-        width: 300px;
+        width: 500px;
         line-height: 26px;
         margin-left: 10px;
     }
@@ -941,7 +1002,7 @@ footer{
 
     .vi {
         border-radius: 16px;
-        width: 400px;
+        width: 495px;
         height: 410px;
         margin-left: 15px;
     }
@@ -949,14 +1010,17 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 50px;
-        margin: 0px 10px;
+        margin: 0px 50px;
+    }
+    .newsletter-title{
+        width: 465px;
     }
     .new-pic {
        
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 450px;
+        width: 500px;
         height: 300px;
         border: none;
         border-radius: 16px;
@@ -974,13 +1038,36 @@ footer{
         top: 1px;
         left: 0.005px;
     }
+    .enjoy{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 50px;
+    }
+    .your-description{
+        width: 450px;
+        color: #5A5A5D;
+    }
+    .enjoy-pic{
+        width: 500px;
+        height: 400px;
+        border-radius: 16px;
+        text-align: center;
+    }
+
     .footer-sec2{
         width: 369px;
         color: #5A5A5D;
         text-align: center;
         line-height: 26px;
-        margin-left: 30px;
+        margin-left: 130px;
         margin-top: 15px;
     }
+    footer{
+        height: 200px;
+        margin-top: 15px;
+        padding-top: 50px;
+        width: 610px;
+    }
+    
 
 }
